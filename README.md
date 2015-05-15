@@ -6,7 +6,7 @@ Counting Semaphore is a simple tool to quantify pixel number based on image colo
 
 It uses rmagick to extract the RGB channels from the images and then, counts the number of non black pixels on each image. 
 
-By default, a pixel is considered to be a non black if its strengh is 20 or above (using the RGB color namespace), but it can be configured in each run.
+By default, a pixel is considered to be a non black if its strengh is 25 or above (using the RGB color namespace), but it can be configured in each run.
 
 ## How to use it
 
