@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/counting-semaphore'
+
+raise 'You have to pass at least a folder' unless ARGV.first
+
+CountingSemaphore::Image.folder_to_csv(folder: ARGV.first, tolerance: ARGV[1])
+
